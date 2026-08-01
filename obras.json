@@ -1,0 +1,558 @@
+[
+  {
+    "titulo": "Sketch",
+    "descripcion": "Boceto de un dragón que no quería quedarse quieto entre la hierba.",
+    "etiquetas": [
+      "Illustration",
+      "Sketch"
+    ],
+    "fecha": "2026-08-01",
+    "tipo": "Imagen",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/041_sketch.jpg",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Contenido/041_sketch.jpg",
+    "id": "041"
+  },
+  {
+    "titulo": "Final",
+    "descripcion": "Dragón entre la hierba, humeando. Boceto a lápiz llevado a color.",
+    "etiquetas": [
+      "Illustration",
+      "Character"
+    ],
+    "fecha": "2026-08-01",
+    "tipo": "Imagen",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/042_final.jpg",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Contenido/042_final.jpg",
+    "id": "042"
+  },
+  {
+    "titulo": "Process",
+    "descripcion": "Del lápiz al color, paso a paso.",
+    "etiquetas": [
+      "Illustration",
+      "Making of"
+    ],
+    "fecha": "2026-08-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/043_process.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/043_process.jpg",
+    "id": "043"
+  },
+  {
+    "titulo": "Sketch",
+    "descripcion": "Punto de partida: una melena que quería moverse como fuego.",
+    "etiquetas": [
+      "Illustration",
+      "Sketch"
+    ],
+    "fecha": "2026-08-01",
+    "tipo": "Imagen",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/038_sketch.jpg",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Contenido/038_sketch.jpg",
+    "id": "038"
+  },
+  {
+    "titulo": "Final",
+    "descripcion": "Diseño de personaje con melena de fuego azul. Del boceto a línea limpia con color plano.",
+    "etiquetas": [
+      "Illustration",
+      "Character"
+    ],
+    "fecha": "2026-08-01",
+    "tipo": "Imagen",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/039_final.jpg",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Contenido/039_final.jpg",
+    "id": "039"
+  },
+  {
+    "titulo": "Process",
+    "descripcion": "El proceso completo, del trazo suelto al acabado final.",
+    "etiquetas": [
+      "Illustration",
+      "Making of"
+    ],
+    "fecha": "2026-08-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/040_process.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/040_process.jpg",
+    "id": "040"
+  },
+  {
+    "titulo": "Hola 2024",
+    "descripcion": "Un saludo animado con el personaje de Monoceja para dar la bienvenida al año.",
+    "etiquetas": [
+      "3D"
+    ],
+    "fecha": "2025-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/001_monoceja-hola-2024.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/001_monoceja-hola-2024.jpg",
+    "id": "001"
+  },
+  {
+    "titulo": "Esquiando",
+    "descripcion": "El personaje de Monoceja esquiando cuesta abajo, puro movimiento y actitud.",
+    "etiquetas": [
+      "3D"
+    ],
+    "fecha": "2025-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/002_monoceja-esquiando.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/002_monoceja-esquiando.jpg",
+    "id": "002"
+  },
+  {
+    "titulo": "Flotando en el mar",
+    "descripcion": "Monoceja flotando en el mar, dejándose llevar sin prisa.",
+    "etiquetas": [
+      "3D"
+    ],
+    "fecha": "2025-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/003_monoceja-flotando-en-el-mar.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/003_monoceja-flotando-en-el-mar.jpg",
+    "id": "003"
+  },
+  {
+    "titulo": "Mountain Bike",
+    "descripcion": "Monoceja en bici de montaña, a toda velocidad entre curvas.",
+    "etiquetas": [
+      "3D"
+    ],
+    "fecha": "2025-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/004_monoceja-mountain-bike.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/004_monoceja-mountain-bike.jpg",
+    "id": "004"
+  },
+  {
+    "titulo": "Rock and Roll",
+    "descripcion": "Monoceja al ritmo del rock and roll, moviéndose sin parar.",
+    "etiquetas": [
+      "3D"
+    ],
+    "fecha": "2025-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/005_monoceja-rock-and-roll.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/005_monoceja-rock-and-roll.jpg",
+    "id": "005"
+  },
+  {
+    "titulo": "Opening 2025",
+    "descripcion": "Cabecera animada de Monoceja para abrir el año 2025.",
+    "etiquetas": [
+      "3D"
+    ],
+    "fecha": "2025-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/006_monoceja-opening-2025.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/006_monoceja-opening-2025.jpg",
+    "id": "006"
+  },
+  {
+    "titulo": "Entre palmeras",
+    "descripcion": "Monoceja relajado entre palmeras, modo vacaciones activado.",
+    "etiquetas": [
+      "3D"
+    ],
+    "fecha": "2025-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/007_monoceja-entre-palmeras.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/007_monoceja-entre-palmeras.jpg",
+    "id": "007"
+  },
+  {
+    "titulo": "Labs Forms 002",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/008_labs-forms-002.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/008_labs-forms-002.jpg",
+    "id": "008"
+  },
+  {
+    "titulo": "Labs Forms 003",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/009_labs-forms-003.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/009_labs-forms-003.jpg",
+    "id": "009"
+  },
+  {
+    "titulo": "Labs Forms 004",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/010_labs-forms-004.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/010_labs-forms-004.jpg",
+    "id": "010"
+  },
+  {
+    "titulo": "Labs Forms 005 A",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/011_labs-forms-005-a.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/011_labs-forms-005-a.jpg",
+    "id": "011"
+  },
+  {
+    "titulo": "Labs Forms 005 B",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/012_labs-forms-005-b.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/012_labs-forms-005-b.jpg",
+    "id": "012"
+  },
+  {
+    "titulo": "Labs Forms 006",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/013_labs-forms-006.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/013_labs-forms-006.jpg",
+    "id": "013"
+  },
+  {
+    "titulo": "Labs Forms 008",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/014_labs-forms-008.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/014_labs-forms-008.jpg",
+    "id": "014"
+  },
+  {
+    "titulo": "Labs Forms 009 A",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/015_labs-forms-009-a.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/015_labs-forms-009-a.jpg",
+    "id": "015"
+  },
+  {
+    "titulo": "Labs Forms 009 B",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/016_labs-forms-009-b.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/016_labs-forms-009-b.jpg",
+    "id": "016"
+  },
+  {
+    "titulo": "Labs Forms 010 A",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/017_labs-forms-010-a.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/017_labs-forms-010-a.jpg",
+    "id": "017"
+  },
+  {
+    "titulo": "Labs Forms 010 B",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/018_labs-forms-010-b.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/018_labs-forms-010-b.jpg",
+    "id": "018"
+  },
+  {
+    "titulo": "Labs Forms 012",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/019_labs-forms-012.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/019_labs-forms-012.jpg",
+    "id": "019"
+  },
+  {
+    "titulo": "Labs Forms 014",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/020_labs-forms-014.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/020_labs-forms-014.jpg",
+    "id": "020"
+  },
+  {
+    "titulo": "Labs Forms 016",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/021_labs-forms-016.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/021_labs-forms-016.jpg",
+    "id": "021"
+  },
+  {
+    "titulo": "Labs Forms 019 A",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/022_labs-forms-019-a.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/022_labs-forms-019-a.jpg",
+    "id": "022"
+  },
+  {
+    "titulo": "Labs Forms 019 B",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/023_labs-forms-019-b.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/023_labs-forms-019-b.jpg",
+    "id": "023"
+  },
+  {
+    "titulo": "Labs Forms 021",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/024_labs-forms-021.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/024_labs-forms-021.jpg",
+    "id": "024"
+  },
+  {
+    "titulo": "Labs Forms 022",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/025_labs-forms-022.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/025_labs-forms-022.jpg",
+    "id": "025"
+  },
+  {
+    "titulo": "Labs Forms 023",
+    "descripcion": "Estudio experimental de formas abstractas en 3D — explorando composición, ritmo y luz con Cinema 4D y Redshift, sin más objetivo que investigar el lenguaje visual.",
+    "etiquetas": [
+      "3D",
+      "Motion graphics"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/026_labs-forms-023.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/026_labs-forms-023.jpg",
+    "id": "026"
+  },
+  {
+    "titulo": "Labs Characters 01 (v1)",
+    "descripcion": "Serie de exploración de personajes en 3D — estilo, actuación y timing a través de loops cortos, probando siluetas, materiales y personalidad en movimiento.",
+    "etiquetas": [
+      "3D",
+      "Character"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/027_labs-characters-01-v1.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/027_labs-characters-01-v1.jpg",
+    "id": "027"
+  },
+  {
+    "titulo": "Labs Characters 01 (v2)",
+    "descripcion": "Serie de exploración de personajes en 3D — estilo, actuación y timing a través de loops cortos, probando siluetas, materiales y personalidad en movimiento.",
+    "etiquetas": [
+      "3D",
+      "Character"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/028_labs-characters-01-v2.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/028_labs-characters-01-v2.jpg",
+    "id": "028"
+  },
+  {
+    "titulo": "Labs Characters 02",
+    "descripcion": "Serie de exploración de personajes en 3D — estilo, actuación y timing a través de loops cortos, probando siluetas, materiales y personalidad en movimiento.",
+    "etiquetas": [
+      "3D",
+      "Character"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/029_labs-characters-02.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/029_labs-characters-02.jpg",
+    "id": "029"
+  },
+  {
+    "titulo": "Labs Characters 03",
+    "descripcion": "Serie de exploración de personajes en 3D — estilo, actuación y timing a través de loops cortos, probando siluetas, materiales y personalidad en movimiento.",
+    "etiquetas": [
+      "3D",
+      "Character"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/030_labs-characters-03.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/030_labs-characters-03.jpg",
+    "id": "030",
+    "relacionado": "031"
+  },
+  {
+    "titulo": "Labs Characters 03 — Making Off",
+    "descripcion": "El proceso detrás de Labs Characters 03: cómo se construyó el timing, el rig y el acabado del loop.",
+    "etiquetas": [
+      "3D",
+      "Making of"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/031_labs-characters-03-making-off.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/031_labs-characters-03-making-off.jpg",
+    "id": "031",
+    "relacionado": "030"
+  },
+  {
+    "titulo": "Labs Characters 04 (v1)",
+    "descripcion": "Serie de exploración de personajes en 3D — estilo, actuación y timing a través de loops cortos, probando siluetas, materiales y personalidad en movimiento.",
+    "etiquetas": [
+      "3D",
+      "Character"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/032_labs-characters-04-v1.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/032_labs-characters-04-v1.jpg",
+    "id": "032"
+  },
+  {
+    "titulo": "Historia de un grano de arena",
+    "descripcion": "Videoclip conceptual hecho para un músico, siguiendo de forma simbólica el viaje de un grano de arena por distintos paisajes. Ilustración 2D con detalles sutiles en 3D, todo al ritmo de la música.",
+    "etiquetas": [
+      "2D",
+      "Character",
+      "Motion graphics",
+      "Music Video"
+    ],
+    "fecha": "2020-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/033_historia-de-un-grano-de-arena.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/033_historia-de-un-grano-de-arena.jpg",
+    "id": "033"
+  },
+  {
+    "titulo": "Peach Character",
+    "descripcion": "Personaje personal en 3D — exploración de forma y color bajo el nombre 'Peach'.",
+    "etiquetas": [
+      "3D",
+      "Character"
+    ],
+    "fecha": "2020-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/034_peach-character.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/034_peach-character.jpg",
+    "id": "034",
+    "relacionado": "035"
+  },
+  {
+    "titulo": "Peach Character — Making Off",
+    "descripcion": "El proceso de creación de Peach, del boceto al render final.",
+    "etiquetas": [
+      "3D",
+      "Making of"
+    ],
+    "fecha": "2020-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/035_peach-character-making-off.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/035_peach-character-making-off.jpg",
+    "id": "035",
+    "relacionado": "034"
+  },
+  {
+    "titulo": "Shapes",
+    "descripcion": "Estudio abstracto en 3D sobre formas geométricas simples — ritmo, contraste y peso visual, sin narrativa, solo el gusto por el movimiento puro.",
+    "etiquetas": [
+      "3D"
+    ],
+    "fecha": "2023-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/036_shapes.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/036_shapes.jpg",
+    "id": "036"
+  },
+  {
+    "titulo": "Flamenco",
+    "descripcion": "Pieza personal en 3D inspirada en el flamenco — movimiento y ritmo llevados a la animación.",
+    "etiquetas": [
+      "3D"
+    ],
+    "fecha": "2024-01-01",
+    "tipo": "Vídeo",
+    "archivo": "https://monoceja-cdn.b-cdn.net/Contenido/037_flamenco.mp4",
+    "miniatura": "https://monoceja-cdn.b-cdn.net/Thumbnails/037_flamenco.jpg",
+    "id": "037"
+  }
+]

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monoceja | Dirección creativa</title>
+<meta name="description" content="Monoceja — hub personal de dirección creativa: animación, ilustración y 3D de Ismael González.">
+<meta property="og:title" content="Monoceja | Dirección creativa">
+<meta property="og:description" content="Creative direction">
+<link rel="icon" href="https://monoceja-cdn.b-cdn.net/Logo/Isotipo.svg" type="image/svg+xml">
+<link rel="alternate icon" href="https://monoceja-cdn.b-cdn.net/Logo/Isotipo.svg">
+<link rel="apple-touch-icon" href="https://monoceja-cdn.b-cdn.net/Logo/Isotipo.svg">
+<style>
+
+  /* ============ FUENTES ============ */
+  @font-face {
+    font-family: 'InterMonoceja';
+    src: url('https://monoceja-cdn.b-cdn.net/font-inter/Inter_18pt-Regular.woff2') format('woff2');
+    font-weight: 400; font-style: normal; font-display: swap;
+  }
+  @font-face {
+    font-family: 'InterMonoceja';
+    src: url('https://monoceja-cdn.b-cdn.net/font-inter/Inter_18pt-Bold.woff2') format('woff2');
+    font-weight: 700; font-style: normal; font-display: swap;
+  }
+  @font-face {
+    font-family: 'InterMonoceja';
+    src: url('https://monoceja-cdn.b-cdn.net/font-inter/Inter_24pt-ExtraBold.woff2') format('woff2');
+    font-weight: 800; font-style: normal; font-display: swap;
+  }
+
+  /* ============ TOKENS ============ */
+  :root {
+    --bg: #ffffff;
+    --ink: #000000;
+    --muted: #6b6b6b;
+    --line: rgba(0,0,0,0.08);
+    --nav-h: 140px;
+    --font-sans: 'InterMonoceja', 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
+  html { background: var(--bg); }
+  body {
+    font-family: var(--font-sans);
+    background: var(--bg);
+    color: var(--ink);
+    padding-top: var(--nav-h);
+    min-height: 100vh;
+  }
+  a { color: inherit; text-decoration: none; }
+  img, video { display: block; max-width: 100%; }
+  button { font-family: inherit; cursor: pointer; }
+
+  /* ============ HEADER — logo centrado, separado del subtítulo ============ */
+  .site-header {
+    position: fixed; top: 0; left: 0; right: 0; height: var(--nav-h);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 20px;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+    z-index: 1000;
+  }
+  .logo-link { display: flex; align-items: center; justify-content: center; }
+  .logo-img { height: 24px; width: auto; display: block; }
+  .logo-desktop { display: block; }
+  .logo-mobile { display: none; }
+  .header-divider {
+    width: 28px; height: 1px;
+    background: rgba(0,0,0,0.18);
+  }
+  .header-tagline {
+    font-size: 14px; font-weight: 700; letter-spacing: 0.08em;
+    color: var(--ink); text-transform: uppercase;
+  }
+  @media (max-width: 768px) {
+    .logo-desktop { display: none; }
+    .logo-mobile { display: block; }
+  }
+
+  /* ============ FILTROS ============ */
+  .filters-wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 24px clamp(20px, 4vw, 48px) 0;
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+  }
+  .filter-btn {
+    border: none;
+    background: #f5f5f5;
+    color: #555;
+    font-size: 12px; font-weight: 700; letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding: 7px 14px;
+    border-radius: 999px;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .filter-btn:hover { background: #ebebeb; }
+  .filter-btn.active { background: var(--ink); color: #fff; }
+  .cell.is-hidden { display: none; }
+
+  /* ============ GRID ============ */
+  .grid-wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 32px clamp(20px, 4vw, 48px) 64px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+  }
+  @media (min-width: 600px) {
+    .grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (min-width: 1024px) {
+    .grid { grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  }
+
+  .cell {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: #f2f2f2;
+    cursor: pointer;
+  }
+  .cell img.thumb {
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center;
+    transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .cell:hover img.thumb { transform: scale(1.04); }
+
+  /* Overlay de hover — oscurece la miniatura al 60%, sin más adornos */
+  .cell-overlay {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 8px;
+    background: rgba(10,10,10,0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 16px;
+  }
+  .cell:hover .cell-overlay,
+  .cell:focus-visible .cell-overlay {
+    opacity: 1;
+  }
+  .cell-title {
+    font-size: 14px; font-weight: 700;
+    color: #ffffff;
+    max-width: 90%;
+  }
+  .cell-number {
+    font-size: 18px; font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+  }
+  .cell-play {
+    position: absolute; top: 10px; right: 10px;
+    width: 26px; height: 26px; border-radius: 50%;
+    background: rgba(255,255,255,0.9);
+    display: flex; align-items: center; justify-content: center;
+    pointer-events: none;
+  }
+  .cell-play svg { width: 11px; height: 11px; }
+
+  /* ============ CONTACTO — botón flotante + popup ============ */
+  .contact-fab {
+    position: fixed; right: 24px; bottom: 24px;
+    width: 52px; height: 52px; border-radius: 50%;
+    background: var(--ink); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    border: none; box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    z-index: 1500;
+  }
+  .contact-fab svg { width: 20px; height: 20px; }
+  .contact-popup {
+    position: fixed; right: 24px; bottom: 88px;
+    width: 240px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.16);
+    padding: 20px;
+    display: none;
+    z-index: 1500;
+  }
+  .contact-popup.open { display: block; }
+  .contact-popup-title { font-size: 14px; font-weight: 800; margin-bottom: 6px; }
+  .contact-popup-text { font-size: 13px; color: var(--muted); line-height: 1.5; margin-bottom: 14px; }
+  .contact-popup-link {
+    display: inline-block;
+    font-size: 13px; font-weight: 700;
+    color: #fff; background: var(--ink);
+    padding: 9px 14px; border-radius: 999px;
+  }
+  @media (max-width: 480px) {
+    .contact-fab { right: 16px; bottom: 16px; }
+    .contact-popup { right: 16px; left: 16px; width: auto; bottom: 80px; }
+  }
+
+  /* ============ LIGHTBOX ============ */
+  .lightbox {
+    position: fixed; inset: 0;
+    background: rgba(255,255,255,0.97);
+    display: none;
+    align-items: center; justify-content: center;
+    z-index: 2000;
+    padding: clamp(16px, 4vw, 48px);
+  }
+  .lightbox.open { display: flex; }
+  .lightbox-inner {
+    display: flex; flex-direction: column;
+    max-width: 900px; width: 100%; max-height: 90vh;
+    gap: 20px;
+  }
+  .lightbox-media {
+    width: 100%;
+    display: flex; align-items: center; justify-content: center;
+    background: #f2f2f2;
+    max-height: 70vh;
+    position: relative;
+  }
+  .lightbox-media img, .lightbox-media video {
+    max-width: 100%; max-height: 70vh; width: auto; height: auto; margin: 0 auto;
+  }
+  .lightbox-desc { font-size: 15px; line-height: 1.6; color: var(--ink); max-width: 640px; }
+  .lightbox-title { font-size: 18px; font-weight: 800; margin-bottom: 4px; }
+  .lightbox-close {
+    position: absolute; top: clamp(12px, 3vw, 32px); right: clamp(12px, 3vw, 32px);
+    width: 40px; height: 40px; border: none; background: transparent;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .lightbox-close svg { width: 20px; height: 20px; }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .cell img.thumb, .cell-overlay { transition: none !important; }
+  }
+
+  /* Focus visibility */
+  .cell:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; }
+  .lightbox-close:focus-visible { outline: 2px solid var(--ink); }
+</style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="/" class="logo-link" aria-label="Monoceja">
+      <picture class="logo-desktop">
+        <img src="https://monoceja-cdn.b-cdn.net/Logo/Imagotipo.svg" alt="Monoceja" class="logo-img">
+      </picture>
+      <picture class="logo-mobile">
+        <img src="https://monoceja-cdn.b-cdn.net/Logo/Isotipo.svg" alt="Monoceja" class="logo-img">
+      </picture>
+    </a>
+    <span class="header-divider"></span>
+    <span class="header-tagline" id="headerTagline">Dirección creativa</span>
+  </header>
+
+  <div class="filters-wrap" id="filters" aria-label="Filtros por categoría"></div>
+
+  <div class="grid-wrap">
+    <main class="grid" id="grid" aria-label="Galería de proyectos"></main>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg>
+      </button>
+      <div class="lightbox-media" id="lightboxMedia"></div>
+      <div>
+        <div class="lightbox-title" id="lightboxTitle"></div>
+        <p class="lightbox-desc" id="lightboxDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <button class="contact-fab" id="contactFab" aria-label="Contacto">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 4h16v16H4z" opacity="0"/>
+      <path d="M3 6l9 7 9-7"/>
+      <path d="M3 6h18v12H3z"/>
+    </svg>
+  </button>
+  <div class="contact-popup" id="contactPopup">
+    <div class="contact-popup-title" id="contactTitle">Contacto</div>
+    <p class="contact-popup-text" id="contactText">Escríbeme si quieres saber más de alguna pieza.</p>
+    <a href="#" class="contact-popup-link" id="contactLink">Enviar email</a>
+  </div>
+
+<script>
+(async function () {
+  const grid = document.getElementById('grid');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxMedia = document.getElementById('lightboxMedia');
+  const lightboxTitle = document.getElementById('lightboxTitle');
+  const lightboxDesc = document.getElementById('lightboxDesc');
+  const lightboxClose = document.getElementById('lightboxClose');
+
+  // Tagline según idioma del navegador — español por defecto, inglés si no lo es
+  const tagline = document.getElementById('headerTagline');
+  const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+  if (tagline && !browserLang.startsWith('es')) {
+    tagline.textContent = 'Creative direction';
+  }
+
+  function cellTemplate(obra) {
+    const cell = document.createElement('div');
+    cell.className = 'cell';
+    cell.tabIndex = 0;
+    cell.setAttribute('role', 'button');
+    cell.setAttribute('aria-label', obra.titulo + ' ' + obra.id);
+    cell.dataset.tags = (obra.etiquetas || []).join('|');
+
+    const img = document.createElement('img');
+    img.className = 'thumb';
+    img.loading = 'lazy';
+    img.src = obra.miniatura;
+    img.alt = obra.titulo;
+    cell.appendChild(img);
+
+    if (obra.tipo === 'Vídeo') {
+      const play = document.createElement('div');
+      play.className = 'cell-play';
+      play.innerHTML = '<svg viewBox="0 0 24 24" fill="#111"><path d="M8 5v14l11-7z"/></svg>';
+      cell.appendChild(play);
+    }
+
+    const overlay = document.createElement('div');
+    overlay.className = 'cell-overlay';
+    overlay.innerHTML = `
+      <span class="cell-title">${obra.titulo}</span>
+      <span class="cell-number">N.º ${obra.id}</span>
+    `;
+    cell.appendChild(overlay);
+
+    cell.addEventListener('click', () => openLightbox(obra));
+    cell.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(obra); }
+    });
+
+    return cell;
+  }
+
+  function openLightbox(obra) {
+    lightboxMedia.innerHTML = '';
+    if (obra.tipo === 'Vídeo') {
+      const video = document.createElement('video');
+      video.src = obra.archivo;
+      video.controls = true;
+      video.poster = obra.miniatura;
+      video.playsInline = true;
+      lightboxMedia.appendChild(video);
+    } else {
+      const img = document.createElement('img');
+      img.src = obra.archivo;
+      img.alt = obra.titulo;
+      lightboxMedia.appendChild(img);
+    }
+    lightboxTitle.textContent = obra.titulo;
+    lightboxDesc.textContent = obra.descripcion || '';
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    lightboxClose.focus();
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    lightbox.setAttribute('aria-hidden', 'true');
+    lightboxMedia.innerHTML = '';
+    document.body.style.overflow = '';
+  }
+
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+
+  try {
+    const res = await fetch('obras.json');
+    const obras = await res.json();
+    obras
+      .slice()
+      .sort((a, b) => parseInt(b.id, 10) - parseInt(a.id, 10))
+      .forEach((obra) => grid.appendChild(cellTemplate(obra)));
+
+    // ---- Filtros por categoría ----
+    const filtersWrap = document.getElementById('filters');
+    const allTags = Array.from(new Set(obras.flatMap(o => o.etiquetas || []))).sort();
+    const active = new Set();
+
+    function renderFilterButtons() {
+      filtersWrap.innerHTML = '';
+      const allBtn = document.createElement('button');
+      allBtn.className = 'filter-btn' + (active.size === 0 ? ' active' : '');
+      allBtn.textContent = browserLang.startsWith('es') ? 'Todos' : 'All';
+      allBtn.addEventListener('click', () => { active.clear(); applyFilters(); });
+      filtersWrap.appendChild(allBtn);
+
+      allTags.forEach(tag => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn' + (active.has(tag) ? ' active' : '');
+        btn.textContent = tag;
+        btn.addEventListener('click', () => {
+          if (active.has(tag)) active.delete(tag); else active.add(tag);
+          applyFilters();
+        });
+        filtersWrap.appendChild(btn);
+      });
+    }
+
+    function applyFilters() {
+      const cells = grid.querySelectorAll('.cell');
+      cells.forEach(cell => {
+        const tags = cell.dataset.tags.split('|');
+        const visible = active.size === 0 || tags.some(t => active.has(t));
+        cell.classList.toggle('is-hidden', !visible);
+      });
+      renderFilterButtons();
+    }
+
+    renderFilterButtons();
+  } catch (err) {
+    grid.innerHTML = '<p style="padding:40px;color:#6b6b6b;">No se pudo cargar el contenido. Revisa obras.json.</p>';
+    console.error(err);
+  }
+
+  // ---- Contacto: botón flotante + popup, email construido en runtime ----
+  const contactFab = document.getElementById('contactFab');
+  const contactPopup = document.getElementById('contactPopup');
+  const contactTitle = document.getElementById('contactTitle');
+  const contactText = document.getElementById('contactText');
+  const contactLink = document.getElementById('contactLink');
+
+  const user = 'hola';
+  const domain = 'monoceja.tv';
+  contactLink.setAttribute('href', 'mailto:' + user + '@' + domain);
+  contactLink.textContent = browserLang.startsWith('es') ? 'Enviar email' : 'Send email';
+  contactTitle.textContent = browserLang.startsWith('es') ? 'Contacto' : 'Contact';
+  contactText.textContent = browserLang.startsWith('es')
+    ? 'Escríbeme si quieres saber más de alguna pieza.'
+    : 'Write to me if you want to know more about a piece.';
+
+  contactFab.addEventListener('click', () => {
+    contactPopup.classList.toggle('open');
+  });
+  document.addEventListener('click', (e) => {
+    if (!contactPopup.contains(e.target) && !contactFab.contains(e.target)) {
+      contactPopup.classList.remove('open');
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
