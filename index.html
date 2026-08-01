@@ -444,6 +444,8 @@
     ? 'Escríbeme si quieres saber más de alguna pieza.'
     : 'Write to me if you want to know more about a piece.';
 
+  contactFab.setAttribute('aria-label', browserLang.startsWith('es') ? 'Contacto' : 'Contact');
+
   contactFab.addEventListener('click', () => {
     contactPopup.classList.toggle('open');
   });
