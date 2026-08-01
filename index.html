@@ -366,6 +366,7 @@
     lightbox.setAttribute('aria-hidden', 'false');
     lightboxClose.focus();
     document.body.style.overflow = 'hidden';
+    history.replaceState(null, '', '#' + obra.id);
   }
 
   function closeLightbox() {
@@ -373,6 +374,7 @@
     lightbox.setAttribute('aria-hidden', 'true');
     lightboxMedia.innerHTML = '';
     document.body.style.overflow = '';
+    history.replaceState(null, '', location.pathname + location.search);
   }
 
   lightboxClose.addEventListener('click', closeLightbox);
@@ -423,6 +425,13 @@
     }
 
     renderFilterButtons();
+
+    // Deep-linking: si la URL trae #042, abrir esa pieza directamente
+    const hashId = location.hash.replace('#', '');
+    if (hashId) {
+      const target = obras.find(o => o.id === hashId);
+      if (target) openLightbox(target);
+    }
   } catch (err) {
     grid.innerHTML = '<p style="padding:40px;color:#6b6b6b;">No se pudo cargar el contenido. Revisa obras.json.</p>';
     console.error(err);
