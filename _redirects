@@ -1,0 +1,4 @@
+# Monoceja retirada (09/11/2026, decisión de Ismael): toda la web redirige con 301 a la home de ismaelgonzalez.tv.
+# Para reactivar el grid, borrar este archivo. index.html y obras.json se conservan.
+/ https://ismaelgonzalez.tv/ 301
+/* https://ismaelgonzalez.tv/ 301
